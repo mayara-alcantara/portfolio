@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.about, .projects {
+    background-color: #111; /* Fundo levemente mais claro para destacar a seção */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.project-card {
+    background-color: #222; /* Cartões com fundo um pouco mais claro */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a {
+    color: #1e90ff; /* Azul para links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #00bfff; /* Azul mais claro no hover */
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+}
